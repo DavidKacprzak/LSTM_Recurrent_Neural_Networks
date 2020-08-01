@@ -32,16 +32,16 @@ Build and train custom LSTM RNNs to test the predictive capabilities of the Cryp
 >For the FNG model, we found the optimal parameters were a window of 1 and a batch size of 10. With these settings, loss was minimized at a value of 0.0823, however, visually the Predicted values approach a flat line as the batch size is increased. With a window of 1 and batch of 1, the plot is visually improved, better tracking the ups and downs of the real data, but with a higher loss of 0.0936.
 
 #### Optimal (minimized Loss) Closing Model Output (Window=2, Batch=2, Loss=0.0111):
-![Optimal Closing Model Output](Images/CLOSING2_2.PNG)
+![Optimal Closing Model Output](Images/CLOSING2_2.png)
 
 #### Slightly Less Optimal Closing Model Output (Window=1, Batch=2,Loss=0.0115):
-![Slightly Less Optimal Closing Model Output](Images/CLOSING1_2.PNG)
+![Slightly Less Optimal Closing Model Output](Images/CLOSING1_2.png)
 
 #### Optimal (minimized Loss) FNG Model Output (Window=1, Batch=10, Loss=0.0823):
-![Optical FNG Model Output](Images/FNG1_10.PNG)
+![Optical FNG Model Output](Images/FNG1_10.png)
 
 #### Visually Improved FNG Model Output (Window = 1, Batch = 1, Loss=0.0936):
-![Visually Improved FNG Model Output](Images/FNG1.PNG)
+![Visually Improved FNG Model Output](Images/FNG1.png)
 
 #### Loss Values for a Variety of Window and Batch Sizes:
-![FNG&Closing_Loss](Images/FNG&Closing_Loss.PNG)
+![FNG&Closing_Loss](Images/FNG&Closing_Loss.png)
